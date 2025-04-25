@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Real estate investment,
+        real growth, real easy.</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-container">
+                <div><button class="primary-btn">Logo</button></div>
+                <nav class="desktopNav">
+                    <ul>
+                        <li> <a href="#"> Home</a></li>
+                        <li><a href="#">About US</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact US</a></li>
+                    </ul>
+                </nav>
+                <div class="humburger-icon" onclick="onToggle()">
+                    <img src="/assets/menuIcon.svg" alt="menuIcon" id="menuIcon">
+                    <img src="/assets/closeIcon.svg" alt="CloseIcon" id="closeIcon">
+
+
+                </div>
+
+            </div>
+            <div class="mobileNav" id="mobileNavBar">
+                <nav>
+                    <ul>
+                        <li> <a href="#"> Home</a></li>
+                        <li><a href="#">About US</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact US</a></li>
+                    </ul>
+                </nav>
+
+
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="common-bg">
+            <div class="container">
+                <div class="hero-section">
+                    <div class="hero-section-title">
+                        <h1>Real estate investment,
+                            <span class="primary-text"> real growth, real easy.</span>
+                        </h1>
+                        <p class="hero-paragraph">The best real estate investment management experience starts with cnc.
+                        </p>
+                    </div>
+                    <div class="btn-wrapper">
+                        <button class="primary-btn"><span>Book a demo</span> <img src="./assets/arrowIcon.svg"
+                                alt="arrowIcon" class="arrowIcon"></button>
+                        <button class="secondary-btn">See pricing</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section>
+        <div class="container">
+            <div class="cnc-main">
+                <div>
+                    <div class="asset-title-main cnc-heading">
+                        <h4 class="asset-title">Explore</h4>
+                        <p class="asset-subtitle"><span class="asset-subtitle-light">Cnc's</span>
+                            Solutions</p>
+                    </div>
+                    <div class="tab-section">
+                        <div class="tab">
+                            <button class="tablinks" onclick="openCity(event, 'Fundraising')" id="defaultOpen"> <img
+                                    src="/assets/fundIcon.svg" alt="icon"><span>Fundraising</span></button>
+                            <button class="tablinks" onclick="openCity(event, 'CRM')"><img src="/assets/crmIcon.svg"
+                                    alt="icon">CRM</button>
+                            <button class="tablinks" onclick="openCity(event, 'Investor')"><img
+                                    src="/assets/investorIcon.svg" alt="icon">Investor Portal</button>
+                            <button class="tablinks" onclick="openCity(event, 'Investment')"><img
+                                    src="/assets/investmentIcon.svg" alt="icon">Investment management</button>
+                            <button class="tablinks" onclick="openCity(event, 'InvestorReporting')"><img
+                                    src="/assets/investorReportIcon.svg" alt="icon">Investor reporting</button>
+                            <button class="tablinks" onclick="openCity(event, 'DocumentManagement')"><img
+                                    src="/assets/documentIcon.svg" alt="icon">Document management</button>
+                            <button class="tablinks" onclick="openCity(event, 'Payments')"><img
+                                    src="/assets/paymentIcon.svg" alt="icon">Payments</button>
+                            <button class="tablinks" onclick="openCity(event, 'AccountingServices')"><img
+                                    src="/assets/accountingIcon.svg" alt="icon">Accounting services</button>
+
+                        </div>
+
+                        <div id="Fundraising" class="tabcontent">
+
+                            <img src="/assets/Platform.png" alt="img">
+                        </div>
+
+                        <div id="CRM" class="tabcontent">
+                            <h3>CRM</h3>
+                            <p>Paris is the capital of France.</p>
+                        </div>
+
+                        <div id="Investor" class="tabcontent">
+                            <h3>Investor Portal</h3>
+
+                        </div>
+                        <div id="Investment" class="tabcontent">
+                            <h3>Investment</h3>
+
+                        </div>
+                        <div id="InvestorReporting" class="tabcontent">
+                            <h3>InvestorReporting</h3>
+
+                        </div>
+                        <div id="DocumentManagement" class="tabcontent">
+                            <h3>Document Management</h3>
+
+                        </div>
+                        <div id="Payments" class="tabcontent">
+                            <h3>Payments</h3>
+
+                        </div>
+                        <div id="AccountingServices" class="tabcontent">
+                            <h3>AccountingServices</h3>
+
+                        </div>
+
+                    </div>
+                    <div class="slider-container">
+                        <div class="carousel"
+                            data-flickity='{ "autoPlay": true ,"prevNextButtons": false, "freeScroll": true, "autoPlay": 1500, "pauseAutoPlayOnHover": false  }'>
+                            <div class="carousel-cell"></div>
+                            <div class="carousel-cell"></div>
+                            <div class="carousel-cell"></div>
+                            <div class="carousel-cell"></div>
+                            <div class="carousel-cell"></div>
+                            <div class="carousel-cell"></div>
+                            <div class="carousel-cell"></div>
+                            <div class="carousel-cell"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="common-bg">
+            <div class="container">
+                <div class="asset-section">
+                    <div class="asset-title-main">
+                        <h4 class="asset-title">By the numbers</h4>
+                        <p class="asset-subtitle"><span class="asset-subtitle-light">Empowering</span>
+                            industry success</p>
+                    </div>
+                    <div>
+                        <div>
+                            <div class="count-one count-topline"> $<span id="counterOne"></span>B+</div>
+                            <p class="count-p">Assets under management</p>
+                        </div>
+
+                        <div>
+                            <div class="count-wrapper">
+                                <div>
+                                    <div class="count count-topline"><span id="counterTwo"></span>K</div>
+                                    <p class="count-p">Investors</p>
+
+                                </div>
+                                <div>
+                                    <div class="count count-topline ">$<span id="counterThree"></span>B</div>
+                                    <p class="count-p">Transactions</p>
+                                </div>
+
+
+                            </div>
+                            <div class="count-wrapper">
+                                <div>
+                                    <div class="count count-topline"><span id="counterFour"></span>K</div>
+                                    <p class="count-p">Funds and syndicates</p>
+
+                                </div>
+                                <div>
+                                    <div class="count count-topline"><span id="counterFive"></span>K</div>
+                                    <p class="count-p">Investments</p>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="common-bg">
+        <div class="footer-main"><button class="primary-btn">Footer</button></div>
+    </footer>
+
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+
+    <script>
+        function onToggle() {
+            var links = document.getElementById("mobileNavBar");
+            var closeIcon = document.getElementById("closeIcon");
+            var menuIcon = document.getElementById("menuIcon");
+
+            if (links.style.display == "block") {
+                links.style.display = "none";
+                closeIcon.style.display = "none";
+                menuIcon.style.display = "block";
+            }
+            else {
+                links.style.display = "block";
+                closeIcon.style.display = "block";
+                menuIcon.style.display = "none";
+            }
+        }
+    </script>
+
+    <script>
+        const countOne = document.getElementById("counterOne");
+        const countTwo = document.getElementById("counterTwo");
+        const countThree = document.getElementById("counterThree");
+        const countFour = document.getElementById("counterFour");
+        const countFive = document.getElementById("counterFive");
+
+        let count1 = 0;
+        let count2 = 0;
+        let count3 = 0;
+        let count4 = 0;
+        let count5 = 0;
+
+        const timeInterval1 = setInterval(() => {
+            countOne.textContent = count1;
+            count1++;
+
+            if (count1 > 150) {
+                clearInterval(timeInterval1);
+            }
+
+
+        }, 15);
+
+        const timeInterval2 = setInterval(() => {
+
+            countTwo.textContent = count2;
+            count2++;
+            if (count2 > 70) {
+                clearInterval(timeInterval2);
+            }
+        }, 15);
+        const timeInterval3 = setInterval(() => {
+
+            countThree.textContent = count3;
+            count3++;
+            if (count3 > 13) {
+                clearInterval(timeInterval3);
+            }
+        }, 15);
+        const timeInterval4 = setInterval(() => {
+
+            countFour.textContent = count4;
+            count4++;
+            if (count4 > 6.5) {
+                clearInterval(timeInterval4);
+            }
+        }, 15);
+        const timeInterval5 = setInterval(() => {
+
+            countFive.textContent = count5;
+            count5++;
+            if (count5 > 125) {
+                clearInterval(timeInterval5);
+            }
+        }, 15);
+    </script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+
+
+
+</html>
